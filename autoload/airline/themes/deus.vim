@@ -15,7 +15,7 @@ else
   let s:term_purple = 170
   let s:term_white = 145
   let s:term_black = 235
-  let s:term_grey = 236
+  let s:term_grey = 237
 endif
 
 let g:airline#themes#deus#palette = {}
@@ -63,7 +63,7 @@ let g:airline#themes#deus#palette.inactive_modified = {
 " Warning/Error styling code from vim-airline's ["base16" theme](https://github.com/vim-airline/vim-airline-themes/blob/master/autoload/airline/themes/base16.vim)
 
 " Warnings
-let s:WI = [ '#ABB2BF', '#232a32', s:term_white, s:term_black ]
+let s:WI = [ '#C678DD', '#232a32', s:term_purple, s:term_black ]
 let g:airline#themes#deus#palette.normal.airline_warning = [
      \ s:WI[0], s:WI[1], s:WI[2], s:WI[3]
      \ ]
